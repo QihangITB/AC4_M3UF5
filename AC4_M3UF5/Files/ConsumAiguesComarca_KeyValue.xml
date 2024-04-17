@@ -1,0 +1,1839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<regions>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>42</key>
+    <value>Moianès</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+  <region>
+    <key>1</key>
+    <value>ALT CAMP, L'</value>
+  </region>
+  <region>
+    <key>2</key>
+    <value>ALT EMPORDÀ, L'</value>
+  </region>
+  <region>
+    <key>3</key>
+    <value>ALT PENEDÈS, L'</value>
+  </region>
+  <region>
+    <key>4</key>
+    <value>ALT URGELL, L'</value>
+  </region>
+  <region>
+    <key>5</key>
+    <value>ALTA RIBAGORÇA, L'</value>
+  </region>
+  <region>
+    <key>6</key>
+    <value>ANOIA, L'</value>
+  </region>
+  <region>
+    <key>7</key>
+    <value>BAGES, EL</value>
+  </region>
+  <region>
+    <key>8</key>
+    <value>BAIX CAMP, EL</value>
+  </region>
+  <region>
+    <key>9</key>
+    <value>BAIX EBRE, EL</value>
+  </region>
+  <region>
+    <key>10</key>
+    <value>BAIX EMPORDÀ, EL</value>
+  </region>
+  <region>
+    <key>11</key>
+    <value>BAIX LLOBREGAT, EL</value>
+  </region>
+  <region>
+    <key>12</key>
+    <value>BAIX PENEDÈS, EL</value>
+  </region>
+  <region>
+    <key>13</key>
+    <value>BARCELONÈS, EL</value>
+  </region>
+  <region>
+    <key>14</key>
+    <value>BERGUEDÀ, EL</value>
+  </region>
+  <region>
+    <key>15</key>
+    <value>CERDANYA, LA</value>
+  </region>
+  <region>
+    <key>16</key>
+    <value>CONCA DE BARBERÀ, LA</value>
+  </region>
+  <region>
+    <key>17</key>
+    <value>GARRAF, EL</value>
+  </region>
+  <region>
+    <key>18</key>
+    <value>GARRIGUES, LES</value>
+  </region>
+  <region>
+    <key>19</key>
+    <value>GARROTXA, LA</value>
+  </region>
+  <region>
+    <key>20</key>
+    <value>GIRONÈS, EL</value>
+  </region>
+  <region>
+    <key>21</key>
+    <value>MARESME, EL</value>
+  </region>
+  <region>
+    <key>22</key>
+    <value>MONTSIÀ, EL</value>
+  </region>
+  <region>
+    <key>23</key>
+    <value>NOGUERA, LA</value>
+  </region>
+  <region>
+    <key>24</key>
+    <value>OSONA</value>
+  </region>
+  <region>
+    <key>25</key>
+    <value>PALLARS JUSSÀ, EL</value>
+  </region>
+  <region>
+    <key>26</key>
+    <value>PALLARS SOBIRÀ, EL</value>
+  </region>
+  <region>
+    <key>27</key>
+    <value>PLA D'URGELL, EL</value>
+  </region>
+  <region>
+    <key>28</key>
+    <value>PLA DE L'ESTANY, EL</value>
+  </region>
+  <region>
+    <key>29</key>
+    <value>PRIORAT, EL</value>
+  </region>
+  <region>
+    <key>30</key>
+    <value>RIBERA D'EBRE, LA</value>
+  </region>
+  <region>
+    <key>31</key>
+    <value>RIPOLLÈS, EL</value>
+  </region>
+  <region>
+    <key>32</key>
+    <value>SEGARRA, LA</value>
+  </region>
+  <region>
+    <key>33</key>
+    <value>SEGRIÀ, EL</value>
+  </region>
+  <region>
+    <key>34</key>
+    <value>SELVA, LA</value>
+  </region>
+  <region>
+    <key>35</key>
+    <value>SOLSONÈS, EL</value>
+  </region>
+  <region>
+    <key>36</key>
+    <value>TARRAGONÈS, EL</value>
+  </region>
+  <region>
+    <key>37</key>
+    <value>TERRA ALTA</value>
+  </region>
+  <region>
+    <key>38</key>
+    <value>URGELL, L'</value>
+  </region>
+  <region>
+    <key>39</key>
+    <value>VAL D'ARAN, LA</value>
+  </region>
+  <region>
+    <key>40</key>
+    <value>VALLÈS OCCIDENTAL, EL</value>
+  </region>
+  <region>
+    <key>41</key>
+    <value>VALLÈS ORIENTAL, EL</value>
+  </region>
+</regions>
