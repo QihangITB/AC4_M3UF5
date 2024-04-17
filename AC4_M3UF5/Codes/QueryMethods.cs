@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AC3_M3UF5.CodeAC2
+﻿
+namespace AC4_M3UF5.Codes
 {
     public class QueryMethods
     {

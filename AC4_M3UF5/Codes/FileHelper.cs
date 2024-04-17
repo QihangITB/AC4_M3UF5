@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Formats.Asn1;
+﻿
 using System.Globalization;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 using CsvHelper;
 using CsvHelper.Configuration;
 
-namespace AC3_M3UF5.CodeAC2
+namespace AC4_M3UF5.Codes
 {
     public class FileHelper
     {
