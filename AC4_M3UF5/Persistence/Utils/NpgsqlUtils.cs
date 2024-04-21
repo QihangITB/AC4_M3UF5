@@ -6,17 +6,20 @@ namespace AC4_M3UF5.Persistence.Utils
 {
     public class NpgsqlUtils
     {
-        /*public static string OpenConnection()
+        public static string OpenConnection()
         {
+            // Combinem la ruta de l'arxiu actual amb la ruta relativa de l'arxiu
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "..\\..\\..\\appsettings.json");
+
             // Carregar la cadena de connexió a la base de dades des de l'arxiu de configuració
             IConfiguration config = new ConfigurationBuilder()
-                .AddJsonFile(@"\dao\dao\appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile(path, optional: false, reloadOnChange: true)
                 .Build();
 
             return config.GetConnectionString("MyPostgresConn");
-        }*/
+        }
 
-        public static RegionDTO GetContact(NpgsqlDataReader reader)
+        public static RegionDTO GetRegion(NpgsqlDataReader reader)
         {
             RegionDTO region = new RegionDTO
             {

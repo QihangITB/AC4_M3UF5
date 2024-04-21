@@ -66,8 +66,10 @@ namespace AC4_M3UF5
             errorEconomic = new ErrorProvider(components);
             errorTotal = new ErrorProvider(components);
             errorCapita = new ErrorProvider(components);
-            groupError = new GroupBox();
-            labelErrorMessage = new Label();
+            groupMessage = new GroupBox();
+            labelMessage = new Label();
+            buttonPersist = new Button();
+            buttonImport = new Button();
             groupManagement.SuspendLayout();
             groupStats.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridRegions).BeginInit();
@@ -78,7 +80,7 @@ namespace AC4_M3UF5
             ((System.ComponentModel.ISupportInitialize)errorEconomic).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorTotal).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorCapita).BeginInit();
-            groupError.SuspendLayout();
+            groupMessage.SuspendLayout();
             SuspendLayout();
             // 
             // groupManagement
@@ -336,9 +338,10 @@ namespace AC4_M3UF5
             // 
             // buttonClean
             // 
-            buttonClean.Location = new Point(217, 263);
+            buttonClean.AutoSize = true;
+            buttonClean.Location = new Point(89, 263);
             buttonClean.Name = "buttonClean";
-            buttonClean.Size = new Size(95, 33);
+            buttonClean.Size = new Size(69, 33);
             buttonClean.TabIndex = 2;
             buttonClean.Text = "Clean";
             buttonClean.UseVisualStyleBackColor = true;
@@ -346,9 +349,10 @@ namespace AC4_M3UF5
             // 
             // buttonSave
             // 
-            buttonSave.Location = new Point(329, 263);
+            buttonSave.AutoSize = true;
+            buttonSave.Location = new Point(164, 263);
             buttonSave.Name = "buttonSave";
-            buttonSave.Size = new Size(95, 33);
+            buttonSave.Size = new Size(69, 33);
             buttonSave.TabIndex = 3;
             buttonSave.Text = "Save";
             buttonSave.UseVisualStyleBackColor = true;
@@ -392,25 +396,47 @@ namespace AC4_M3UF5
             // 
             errorCapita.ContainerControl = this;
             // 
-            // groupError
+            // groupMessage
             // 
-            groupError.Controls.Add(labelErrorMessage);
-            groupError.Location = new Point(440, 172);
-            groupError.Name = "groupError";
-            groupError.Size = new Size(352, 124);
-            groupError.TabIndex = 5;
-            groupError.TabStop = false;
-            groupError.Text = "Inputs Error";
+            groupMessage.Controls.Add(labelMessage);
+            groupMessage.Location = new Point(440, 172);
+            groupMessage.Name = "groupMessage";
+            groupMessage.Size = new Size(352, 124);
+            groupMessage.TabIndex = 5;
+            groupMessage.TabStop = false;
+            groupMessage.Text = "Message";
             // 
-            // labelErrorMessage
+            // labelMessage
             // 
-            labelErrorMessage.AutoSize = true;
-            labelErrorMessage.BackColor = SystemColors.Control;
-            labelErrorMessage.ForeColor = Color.Red;
-            labelErrorMessage.Location = new Point(53, 19);
-            labelErrorMessage.Name = "labelErrorMessage";
-            labelErrorMessage.Size = new Size(0, 15);
-            labelErrorMessage.TabIndex = 0;
+            labelMessage.AutoSize = true;
+            labelMessage.BackColor = SystemColors.Control;
+            labelMessage.ForeColor = Color.Red;
+            labelMessage.Location = new Point(53, 19);
+            labelMessage.Name = "labelMessage";
+            labelMessage.Size = new Size(0, 15);
+            labelMessage.TabIndex = 0;
+            // 
+            // buttonPersist
+            // 
+            buttonPersist.AutoSize = true;
+            buttonPersist.Location = new Point(239, 263);
+            buttonPersist.Name = "buttonPersist";
+            buttonPersist.Size = new Size(69, 33);
+            buttonPersist.TabIndex = 6;
+            buttonPersist.Text = "Persist";
+            buttonPersist.UseVisualStyleBackColor = true;
+            buttonPersist.Click += buttonPersist_Click;
+            // 
+            // buttonImport
+            // 
+            buttonImport.AutoSize = true;
+            buttonImport.Location = new Point(314, 263);
+            buttonImport.Name = "buttonImport";
+            buttonImport.Size = new Size(110, 33);
+            buttonImport.TabIndex = 7;
+            buttonImport.Text = "Import CSV To DB";
+            buttonImport.UseVisualStyleBackColor = true;
+            buttonImport.Click += buttonImport_Click;
             // 
             // managementForm
             // 
@@ -418,7 +444,9 @@ namespace AC4_M3UF5
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.Disable;
             ClientSize = new Size(817, 494);
-            Controls.Add(groupError);
+            Controls.Add(buttonImport);
+            Controls.Add(buttonPersist);
+            Controls.Add(groupMessage);
             Controls.Add(dataGridRegions);
             Controls.Add(buttonSave);
             Controls.Add(buttonClean);
@@ -439,9 +467,10 @@ namespace AC4_M3UF5
             ((System.ComponentModel.ISupportInitialize)errorEconomic).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorTotal).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorCapita).EndInit();
-            groupError.ResumeLayout(false);
-            groupError.PerformLayout();
+            groupMessage.ResumeLayout(false);
+            groupMessage.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -480,7 +509,9 @@ namespace AC4_M3UF5
         private ErrorProvider errorEconomic;
         private ErrorProvider errorTotal;
         private ErrorProvider errorCapita;
-        private GroupBox groupError;
-        private Label labelErrorMessage;
+        private GroupBox groupMessage;
+        private Label labelMessage;
+        private Button buttonPersist;
+        private Button buttonImport;
     }
 }

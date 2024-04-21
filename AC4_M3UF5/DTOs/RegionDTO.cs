@@ -4,7 +4,7 @@
     {
         public int Year { get; set; }
         public int Code { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public int Population { get; set; }
         public int DomesticConsum { get; set; }
         public int EconomyConsum { get; set; }

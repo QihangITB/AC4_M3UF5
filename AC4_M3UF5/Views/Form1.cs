@@ -1,10 +1,18 @@
+using System.Drawing;
 using System.Windows.Forms;
 using AC4_M3UF5.Codes;
+using AC4_M3UF5.DTOs;
+using AC4_M3UF5.Persistence.DAO;
+using AC4_M3UF5.Persistence.Mapping;
+using AC4_M3UF5.Persistence.Utils;
 
 namespace AC4_M3UF5
 {
     public partial class managementForm : Form
     {
+        private IRegionDAO regionDAO = new RegionDAO(NpgsqlUtils.OpenConnection());
+        private List<Codes.Region> regionsCSV = FileHelper.ReadCSVFile("../../../Files/ConsumAiguesComarca.csv");
+
         public managementForm()
         {
             InitializeComponent();
@@ -12,10 +20,9 @@ namespace AC4_M3UF5
 
         private void managementForm_Load(object sender, EventArgs e)
         {
-            List<Codes.Region> regionsCSV = new List<Codes.Region>();
             Dictionary<int, string> regionsKeyValue = new Dictionary<int, string>();
 
-            InitializeVariables(ref regionsCSV, ref regionsKeyValue);
+            InitializeKeyValueXML(ref regionsKeyValue);
 
             //comboYear:
             comboYear.Items.AddRange(QueryMethods.ListOfYears(regionsCSV));
@@ -29,13 +36,12 @@ namespace AC4_M3UF5
             //dataGridRegions:
             InitializateDataGrid();
 
+            //Database:
+            regionDAO.CreateRegionDB();
         }
 
         private void InitializateDataGrid()
         {
-            string pathCSV = "../../../Files/ConsumAiguesComarca.csv";
-            List<Codes.Region> regionsCSV = FileHelper.ReadCSVFile(pathCSV);
-
             dataGridRegions.DataSource = regionsCSV;
             dataGridRegions.Columns[0].HeaderText = "Year";
             dataGridRegions.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
@@ -49,13 +55,8 @@ namespace AC4_M3UF5
             dataGridRegions.Columns[7].HeaderText = "Domestic consumption per capita";
         }
 
-        private void InitializeVariables(ref List<Codes.Region> regionsCSV, ref Dictionary<int, string> regionsKeyValue)
+        private void InitializeKeyValueXML(ref Dictionary<int, string> regionsKeyValue)
         {
-            //
-            // Execute CSV file
-            // 
-            string pathCSV = "../../../Files/ConsumAiguesComarca.csv";
-            regionsCSV = FileHelper.ReadCSVFile(pathCSV);
             //
             // Save XML File
             //
@@ -93,14 +94,27 @@ namespace AC4_M3UF5
 
         private void buttonClean_Click(object sender, EventArgs e)
         {
-            CleanInputs();
+           CleanInputs();
+        }
+
+        private bool IsRegionExistInCSV(int year, int code)
+        {
+            foreach (var region in regionsCSV)
+            {
+                if (region.Year == year && region.Code == code)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
             string pathCSV = "../../../Files/ConsumAiguesComarca.csv";
 
-            labelErrorMessage.Text = "";
+            labelMessage.Text = "";
+            labelMessage.ForeColor = Color.Red;
 
             if (ValidateChildren())
             {
@@ -116,9 +130,20 @@ namespace AC4_M3UF5
                     ConsumCapita = float.Parse(textConsumCapita.Text)
                 };
 
-                FileHelper.AddRegionToCSV(region, pathCSV);
-                CleanInputs();
-                InitializateDataGrid();
+                if (!IsRegionExistInCSV(region.Year, region.Code))
+                {
+                    FileHelper.AddRegionToCSV(region, pathCSV);
+                    this.regionsCSV = FileHelper.ReadCSVFile(pathCSV); //Actualitzem la llista de regions
+                    InitializateDataGrid();
+
+                    labelMessage.Text = "Region added to csv successfully";
+                    labelMessage.ForeColor = Color.Green;
+                }
+                else
+                {
+                    labelMessage.Text = "Can't add region to csv, because the data \nalready exists";
+                    labelMessage.ForeColor = Color.Red;
+                }
             }
         }
 
@@ -129,9 +154,7 @@ namespace AC4_M3UF5
             int currentDomesticConsum = (int)dataGridRegions.CurrentRow.Cells[4].Value;
             float currentConsumCapita = (float)dataGridRegions.CurrentRow.Cells[7].Value;
 
-            string pathCSV = "../../../Files/ConsumAiguesComarca.csv";
-            List<Codes.Region> allRegions = FileHelper.ReadCSVFile(pathCSV);
-            List<Codes.Region> specificRegion = QueryMethods.GroupRegionByCode(allRegions, currentCode);
+            List<Codes.Region> specificRegion = QueryMethods.GroupRegionByCode(regionsCSV, currentCode);
 
             labelResStatOne.Text = QueryMethods.IsPopulationHigherThan20000(currentPopulation) ? "YES" : "NO";
             labelResStatTwo.Text = QueryMethods.AverageDomesticConsum(currentPopulation, currentDomesticConsum).ToString();
@@ -171,13 +194,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(comboYear.Text))
             {
                 errorYear.SetError(comboYear, "Year can't be empty");
-                labelErrorMessage.Text += "Year can't be empty.";
+                labelMessage.Text += "Year can't be empty.";
                 e.Cancel = true;
             }
             else if (!ComboYearList().Contains(comboYear.Text.Trim()))
             {
                 errorYear.SetError(comboYear, "Year is not exist in the selections");
-                labelErrorMessage.Text += "Year is not exist in the selections.";
+                labelMessage.Text += "Year is not exist in the selections.";
                 e.Cancel = true;
             }
             else
@@ -192,13 +215,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(comboRegion.Text))
             {
                 errorRegion.SetError(comboRegion, "Region can't be empty");
-                labelErrorMessage.Text += "Region can't be empty.\n";
+                labelMessage.Text += "Region can't be empty.\n";
                 e.Cancel = true;
             }
             else if (!ComboRegionList().Contains(comboRegion.Text.Trim()))
             {
                 errorRegion.SetError(comboRegion, "Region is not exist in the selections");
-                labelErrorMessage.Text += "Region is not exist in the selections.\n";
+                labelMessage.Text += "Region is not exist in the selections.\n";
                 e.Cancel = true;
             }
             else
@@ -213,13 +236,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(textPopulation.Text))
             {
                 errorPopulation.SetError(textPopulation, "Population can't be empty");
-                labelErrorMessage.Text += "Population can't be empty.\n";
+                labelMessage.Text += "Population can't be empty.\n";
                 e.Cancel = true;
             }
             else if (!int.TryParse(textPopulation.Text, out int result))
             {
                 errorPopulation.SetError(textPopulation, "Population must be a number");
-                labelErrorMessage.Text += "Population must be a number.\n";
+                labelMessage.Text += "Population must be a number.\n";
                 e.Cancel = true;
             }
             else
@@ -234,13 +257,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(textDomesticConsum.Text))
             {
                 errorDomestic.SetError(textDomesticConsum, "Domestic consumption can't be empty");
-                labelErrorMessage.Text += "Domestic consumption can't be empty.\n";
+                labelMessage.Text += "Domestic consumption can't be empty.\n";
                 e.Cancel = true;
             }
             else if (!int.TryParse(textDomesticConsum.Text, out int result))
             {
                 errorDomestic.SetError(textDomesticConsum, "Domestic consumption must be a number");
-                labelErrorMessage.Text += "Domestic consumption must be a number.\n";
+                labelMessage.Text += "Domestic consumption must be a number.\n";
                 e.Cancel = true;
             }
             else
@@ -255,13 +278,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(textEconomyConsum.Text))
             {
                 errorEconomic.SetError(textEconomyConsum, "Economy consumption can't be empty");
-                labelErrorMessage.Text += "Economy consumption can't be empty.\n";
+                labelMessage.Text += "Economy consumption can't be empty.\n";
                 e.Cancel = true;
             }
             else if (!int.TryParse(textEconomyConsum.Text, out int result))
             {
                 errorEconomic.SetError(textEconomyConsum, "Economy consumption must be a number");
-                labelErrorMessage.Text += "Economy consumption must be a number.\n";
+                labelMessage.Text += "Economy consumption must be a number.\n";
                 e.Cancel = true;
             }
             else
@@ -276,13 +299,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(textTotalConsum.Text))
             {
                 errorTotal.SetError(textTotalConsum, "Total consumption can't be empty");
-                labelErrorMessage.Text += "Total consumption can't be empty.\n";
+                labelMessage.Text += "Total consumption can't be empty.\n";
                 e.Cancel = true;
             }
             else if (!int.TryParse(textTotalConsum.Text, out int result))
             {
                 errorTotal.SetError(textTotalConsum, "Total consumption must be a number");
-                labelErrorMessage.Text += "Total consumption must be a number.\n";
+                labelMessage.Text += "Total consumption must be a number.\n";
                 e.Cancel = true;
             }
             else
@@ -297,13 +320,13 @@ namespace AC4_M3UF5
             if (string.IsNullOrEmpty(textConsumCapita.Text))
             {
                 errorCapita.SetError(textConsumCapita, "Consumption per capita can't be empty");
-                labelErrorMessage.Text += "Consumption per capita can't be empty.\n";
+                labelMessage.Text += "Consumption per capita can't be empty.\n";
                 e.Cancel = true;
             }
             else if (!float.TryParse(textConsumCapita.Text, out float result))
             {
                 errorCapita.SetError(textConsumCapita, "Consumption per capita must be a number");
-                labelErrorMessage.Text += "Consumption per capita must be a number.\n";
+                labelMessage.Text += "Consumption per capita must be a number.\n";
                 e.Cancel = true;
             }
             else
@@ -311,6 +334,84 @@ namespace AC4_M3UF5
                 errorCapita.SetError(textConsumCapita, null);
                 e.Cancel = false;
             }
+        }
+
+        private void SaveRegionToDB(RegionDTO region)
+        {
+            if (regionDAO.GetRegionByCodeAndYear(region.Code, region.Year) == null)
+            {
+                regionDAO.InsertRegion(region);
+                labelMessage.Text = "Region saved successfully in the database";
+                labelMessage.ForeColor = Color.Green;
+            }
+            else
+            {
+                labelMessage.Text = "Region already exists in the database";
+                labelMessage.ForeColor = Color.Red;
+            }
+        }
+
+        private void buttonPersist_Click(object sender, EventArgs e)
+        {
+            labelMessage.Text = "";
+            labelMessage.ForeColor = Color.Red;
+
+            if (ValidateChildren())
+            {
+                RegionDTO region = new RegionDTO
+                {
+                    Year = int.Parse(comboYear.Text),
+                    Code = (int?)comboRegion.SelectedValue ?? 0,
+                    Name = comboRegion.Text,
+                    Population = int.Parse(textPopulation.Text),
+                    DomesticConsum = int.Parse(textDomesticConsum.Text),
+                    EconomyConsum = int.Parse(textEconomyConsum.Text),
+                    TotalConsum = int.Parse(textTotalConsum.Text),
+                    ConsumCapita = float.Parse(textConsumCapita.Text)
+                };
+
+                SaveRegionToDB(region);
+            }
+        }
+
+        private void InsertCSVToDB()
+        {
+            int existFileCount = 0;
+            int newFileCount = 0;
+            foreach (var region in regionsCSV)
+            {
+                if (regionDAO.GetRegionByCodeAndYear(region.Code, region.Year) == null)
+                {
+                    RegionDTO regionDTO = new RegionDTO
+                    {
+                        Year = region.Year,
+                        Code = region.Code,
+                        Name = region.Name,
+                        Population = region.Population,
+                        DomesticConsum = region.DomesticConsum,
+                        EconomyConsum = region.EconomyConsum,
+                        TotalConsum = region.TotalConsum,
+                        ConsumCapita = region.ConsumCapita
+                    };
+                    newFileCount++;
+                    SaveRegionToDB(regionDTO);
+                }
+                else
+                {
+                    existFileCount++;
+                }
+            }
+            labelMessage.Text = $"{existFileCount} regions already exist in the database." +
+                                $"\n{newFileCount} regions imported to the database.";
+            labelMessage.ForeColor = Color.Green;
+        }
+
+        private void buttonImport_Click(object sender, EventArgs e)
+        {
+            labelMessage.Text = "Loading, please wait...";
+            labelMessage.ForeColor = Color.Red;
+            Update(); //Muestra los mensajes antes de cargar los datos.
+            InsertCSVToDB();
         }
     }
 }

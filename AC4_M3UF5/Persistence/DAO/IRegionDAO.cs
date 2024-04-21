@@ -4,7 +4,9 @@ namespace AC4_M3UF5.Persistence.DAO
 {
     public interface IRegionDAO
     {
-        IEnumerable<RegionDTO> GetRegionByCode(int code);
+        void CreateRegionDB();
+        RegionDTO GetRegionByCodeAndYear(int code, int year);
+        IEnumerable<RegionDTO> GetAllRegions();
         void InsertRegion(RegionDTO region);
     }
 }

@@ -1,4 +1,4 @@
-﻿CREATE TABLE region (
+﻿CREATE TABLE IF NOT EXISTS region (
     year INTEGER NOT NULL,
     code INTEGER NOT NULL,
     region VARCHAR(60) NOT NULL,
